@@ -1,4 +1,4 @@
-arcanoid-js
+arkanoid-js
 ===========
 
-JavaScript version of arcanoid game based on html canvas
+JavaScript version of arkanoid game based on html canvas
