@@ -439,6 +439,10 @@ document.onmousemove = function(event) {
 	arkanoidGame.setPaddlePos(event.pageX);
 }
 
+document.ontouchmove = function(event) {
+	arkanoidGame.setPaddlePos(event.touches[0].clientX);
+}
+
 document.onclick = function(){
 	arkanoidGame.startGame();
 }
